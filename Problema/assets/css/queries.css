@@ -1,0 +1,16 @@
+/*responsive*/
+@media screen and (max-width: 600px){
+	div h3{
+	color: white;
+	margin-top: 2%;
+	text-align: center;
+	}
+	.pruebalo{
+		text-align: center;
+	}
+	.icon{
+		font-size: 100%;
+		color: pink;
+		margin: 20% 0%;
+	}
+} 
