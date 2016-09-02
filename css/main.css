@@ -1,3 +1,36 @@
+/*header*/
+.bg-menu{
+	background-color: lightgray;
+}
+.bg-menu p{
+	margin: 7% 5%;
+	color: #6e6e6e;
+}
+nav.navbar{
+	background-color: transparent;
+	border: transparent;
+	z-index: 100;
+	margin-top: 5%;
+}
+.icon{
+	font-size: 300%;
+	margin-top: 10%;
+}
+.margin-5{
+	margin-top: 5%;
+}
+.in-line{
+	display: inline-block;
+}
+.openning{
+	font-size: 300%:;
+}
+.icon{
+	margin: 0% 0% 0% 20%;
+}
+.time{
+	margin: 0% 0% 0% 30%;
+}
 /*section 4*/
 .bg-clients{
 	background-image: url("../images/client-bg.jpg");

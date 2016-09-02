@@ -4,16 +4,14 @@
 	  	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	  	<meta charset="utf-8">
 	  	<title>Accesories Fashion</title>
-	  	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	  	<link rel="stylesheet" type="text/css" href="css/icomoon.css">
+	  	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/animate.css">
-		<link rel="stylesheet" type="text/css" href="css.queries.css">
 		<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body>
 		<div class="container-fluid"><!--container fluid general-->
 			<header>
-				<div class="row">
+				<div class="row bg-menu">
 					<div class="col-xs-6 col-lg-6">
 						<p>Welcome to the best online fashion store!</p>
 					</div>
@@ -29,26 +27,47 @@
 							</div>
 							<div class="collapse navbar-collapse" id="navbar-1"><!--menus desplegables-->
 								<ul class="nav navbar-nav navbar-right">
-									<li><a href="#sobre">Languaje</a></li>
-									<li><a href="#servicios">Currency</a></li>
-									<li><a href="#trabajos"><b>My Account</b></a></li>
-									<li><a href="#contactame">CONTACTAME</a></li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-globe"></span> Languaje<span class="caret"></span></a>
+										<ul class="dropdown-menu">
+											<li>English</li>
+											<li>Español</li>
+											<li>Russian</li>
+										</ul>
+									</li>
+									<li>
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-usd"></span> Currency<span class="caret"></span></a>
+										<ul class="dropdown-menu">
+											<li>English</li>
+											<li>Español</li>
+											<li>Russian</li>
+										</ul>
+									</li>
+									<li>
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-user"></span><b> My Account</b><span class="caret"></span></a>
+										<ul class="dropdown-menu">
+											<li>English</li>
+											<li>Español</li>
+											<li>Russian</li>
+										</ul>
+									</li>
 								</ul>
 							</div>
 						</nav>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row margin-5">
 					<div class="col-xs-12 col-lg-4">
-						<span class="">OPENING TIME!</span>
-						<p>9:00 AM - 10:00 PM</p>
+						<span class="glyphicon glyphicon-time icon"></span>
+						<p class="in-line openning">OPENNING TIME!</p>
+						<p class="time">9:00 AM - 10:00 PM</p>
 					</div>
 					<div class="col-xs-12 col-lg-4">
-						<img src="images/logo.png" alt="logo">
+						<center><img src="images/logo.png" alt="logo" class="img-responsive"></center>
 					</div>
 					<div class="col-xs-12 col-lg-4">
+						<span class="glyphicon glyphicon-search"></span>
 						<input type="text" placeholder="search">
-						<span class=""></span>
 					</div>
 				</div>
 				<div class="row">
@@ -70,10 +89,10 @@
 			<section><!--section 2-->
 				<div class="row">
 					<div class="col-xs-12 col-lg-5">
-						<img src="images/banner1.jpg" alt="banner 1">
+						<img src="images/banner1.jpg" alt="banner 1" class="img-responsive">
 					</div>
 					<div class="col-xs-12 col-lg-7">
-						<img src="images/banner2.jpg" alt="banner 2">
+						<img src="images/banner2.jpg" alt="banner 2" class="img-responsive">
 					</div>
 				</div>
 			</section><!--section 2 cierre-->
@@ -102,7 +121,7 @@
 					</div>
 					<div class="col-xs-12 col-lg-3">
 						<p>SALE</p>
-						<img src="images/c1.jpg" alt="maleta">
+						<img src="images/c1.jpg" alt="maleta" class="img-responsive">
 						<p>Deliver Wide</p>
 						<!--aqui van las estrellas-->
 						<p>$242.00</p><!--numero rayado-->
@@ -110,7 +129,7 @@
 					</div>
 					<div class="col-xs-12 col-lg-3">
 						<p>NEW</p>
-						<img src="images/d1.jpg" alt="bolso">
+						<img src="images/d1.jpg" alt="bolso" class="img-responsive">
 						<p>Deliver Wide</p>
 						<!--aqui van las estrellas-->
 						<p>$218.00</p>
@@ -139,11 +158,213 @@
 					</div>
 				</div>
 			</section><!--section 4 cierre-->
+			<section><!--section 5 carrusel 3-->
+				<div class="row">
+					<div class="col-xs col-lg-4">
+						<div class="row">
+							<div class="col-xs col-lg-6">
+								<p>SALE</p>
+								<p>NEW</p>
+								<img src="images/a2.jpg" class="img-responsive" alt="guantes 2">
+							</div>
+							<div class="col-xs col-lg-6">
+								<p>Deliver Wide</p>
+								<!--aqui van las estrellas-->
+								<p>$242.00</p><!--numero rayado-->
+								<p>$218.00</p>
+								<span class="">Add to Cart</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs col-lg-4">
+						<div class="row">
+							<div class="col-xs col-lg-6">
+								<p>NEW</p>
+								<img src="images/d2.jpg" class="img-responsive" alt="bolso 2">
+							</div>
+							<div class="col-xs col-lg-6">
+								<p>Deliver Wide</p>
+								<!--aqui van las estrellas-->
+								<p>$218.00</p>
+								<span class="">Add to Cart</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs col-lg-4">
+						<div class="row">
+							<div class="col-xs col-lg-6">
+								<img src="images/g2.jpg" class="img-responsive" alt="belt">
+							</div>
+							<div class="col-xs col-lg-6">
+								<p>Deliver Wide</p>
+								<!--aqui van las estrellas-->
+								<p>$218.00</p>
+								<span class="">Add to Cart</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs col-lg-4">
+						<div class="row">
+							<div class="col-xs col-lg-6">
+								<p>NEW</p>
+								<img src="images/c2.jpg" class="img-responsive" alt=" maleta">
+							</div>
+							<div class="col-xs col-lg-6">
+								<p>Deliver Wide</p>
+								<!--aqui van las estrellas-->
+								<p>$242.00</p><!--numero rayado-->
+								<p>$218.00</p>
+								<span class="">Add to Cart</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs col-lg-4">
+						<div class="row">
+							<div class="col-xs col-lg-6">
+								<p>SALE</p>
+								<img src="images/c2.jpg" class="img-responsive" alt="maleta">
+							</div>
+							<div class="col-xs col-lg-6">
+								<p>Deliver Wide</p>
+								<!--aqui van las estrellas-->
+								<p>$218.00</p>
+								<span class="">Add to Cart</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs col-lg-4">
+						<div class="row">
+							<div class="col-xs col-lg-6">
+								<p>NEW</p>
+								<img src="images/e1.jpg" class="img-responsive" alt="gorro">
+							</div>
+							<div class="col-xs col-lg-6">
+								<p>Deliver Wide</p>
+								<!--aqui van las estrellas-->
+								<p>$218.00</p>
+								<span class="">Add to Cart</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section><!--section 5 cierre carrusel 3-->
+			<section><!--section 6-->
+				<div class="row">
+					<div class="col-xs-12 col-lg-12">
+						<h2>< BLOG ></h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs- col-lg-3">
+						<img src="images/blog2.jpg" class="img-responsive" alt="blog-img">
+						<h3>THE SAMPLE HEADING TITLE</h3>
+						<p>27/11/2015</p>
+						<p>Lorem ipsum dolor sit amet, consectetur<br>adipisic ing elit, ded do...</p>
+						<p><a href="http://www.google.com" target="_blanck">Read more...</a></p>
+					</div>
+					<div class="col-xs- col-lg-3">
+						<img src="images/blog1.jpg" class="img-responsive" alt="blog-img">
+						<h3>THE SAMPLE HEADING TITLE</h3>
+						<p>27/11/2015</p>
+						<p>Lorem ipsum dolor sit amet, consectetur<br>adipisic ing elit, ded do...</p>
+						<p><a href="http://www.google.com" target="_blanck">Read more...</a></p>
+					</div>
+					<div class="col-xs- col-lg-3">
+						<img src="images/blog2.jpg" class="img-responsive" alt="blog-img">
+						<h3>THE SAMPLE HEADING TITLE</h3>
+						<p>27/11/2015</p>
+						<p>Lorem ipsum dolor sit amet, consectetur<br>adipisic ing elit, ded do...</p>
+						<p><a href="http://www.google.com" target="_blanck">Read more...</a></p>
+					</div>
+					<div class="col-xs- col-lg-3">
+						<img src="images/blog3.jpg" class="img-responsive" alt="blog-img">
+						<h3>THE SAMPLE HEADING TITLE</h3>
+						<p>27/11/2015</p>
+						<p>Lorem ipsum dolor sit amet, consectetur<br>adipisic ing elit, ded do...</p>
+						<p><a href="http://www.google.com" target="_blanck">Read more...</a></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-lg-4">
+						<div>
+							<span class="icon-sad">| ORDER ONLINE NOW</span>
+							<p>Call Us (0123)456 789</p>
+						</div>
+					</div>
+					<div class="col-xs-12 col-lg-4">
+						<div>
+							<span class="icon-clock">| FREE WORLDWIDE SHIPPING</span>
+							<p>On order over 100%</p>
+						</div>
+					</div>
+					<div class="col-xs-12 col-lg-4">
+						<div>
+							<span class="">| 30 DAYS MONEY BANK 100%</span>
+							<p>Satisfaction Guaranties</p>
+						</div>
+					</div>
+				</div>
+			</section><!--section 6 cierre-->
+			<footer class="bg-footer">
+				<div class="row">
+					<div class="col-xs-12 col-lg-3">
+						<h3>ACCESORIES</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipsic<br>lorem ipsum dolor sit amet, consectetur<br>lorem ipsum dolor sit amet, consectetur adipsic<br>lorem ipsum dolor, consectetur adipsic amte.</p>
+						<span class=""><a href="http://www.facebook.com"></a></span>
+						<span class=""><a href="http://www.twitter.com"></a></span>
+						<span class=""><a href="http://www.facebook.com"></a></span>
+						<span class=""><a href="http://www.skype.com"></a></span>
+						<span class=""><a href="http://www.facebook.com"></a></span>
+					</div>
+					<div class="col-xs-12 col-lg-2">
+						<h3>MY ACCOUNT</h3>
+						<ul>
+							<li>My account</li>
+							<li>Order History</li>
+							<li>Wish List</li>
+							<li>News Letter</li>
+						</ul>
+					</div>
+					<div class="col-xs-12 col-lg-2">
+						<h3>INFORMATION</h3>
+						<ul>
+							<li>About Us</li>
+							<li>Delivery Information</li>
+							<li>Privacy Policy</li>
+							<li>Terms & Conditions</li>
+						</ul>
+					</div>
+					<div class="col-xs-12 col-lg-2">
+						<h3>EXTRAS</h3>
+						<ul>
+							<li>Brands</li>
+							<li>Gift Vouchers</li>
+							<li>Affiliates</li>
+							<li>Specials</li>
+						</ul>
+					</div>
+					<div class="col-xs-12 col-lg-3">
+						<span>8901 Marmora Road, Glasgow D04 89 GR, New York</span>
+						<span>(0123)456789<br>(0976)456734</span>
+						<span>admin@bootexperts.com</span>
+					</div>
+				</div>
+				<div class="row bg-footer2">
+					<div class="col-xs-6 col-lg-6">
+						<p>Copyright 2015<a href="http://www.skype.com">Bootexperts</a>All rights reserved.</p>
+					</div>
+					<div class="col-xs-6 col-lg-6">
+						<img src="images/payment.png" class="img-responsive" alt="payments">
+					</div>
+				</div>
+			</footer>
 		</div><!--container fluid general cierre-->
 
-	<script src="js/respond.js"></script>
-	<script src="js/jquery-1.11.3.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/slick.min.js"></script>
+	<scr
+	<script src="bootstrap/js/jquery.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="bootstrap/css/slick.js"></script>
 	</body>
 </html>
